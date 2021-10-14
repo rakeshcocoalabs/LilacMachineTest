@@ -140,7 +140,7 @@ exports.softRemove = async (req, res) => {
         
         res.send({
             success: 1,
-            message:"task updated successfully"
+            message:"task removed successfully"
 
         })
     } catch (err) {
@@ -160,7 +160,7 @@ exports.remove = async (req, res) => {
         
         res.send({
             success: 1,
-            message:"task updated successfully"
+            message:"task removed successfully"
 
         })
     } catch (err) {
