@@ -1,8 +1,8 @@
 const express = require('express')
 const mongoose = require('mongoose')
-const url = 'mongodb://localhost:27017/node-boilerplate'
+//const url = 'mongodb://localhost:27017/node-boilerplate'
 
-
+const url = 'mongodb+srv://rakesh:Alpha@beta321@cluster0.l7xhi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 
 const app = express()
 
