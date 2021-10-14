@@ -105,7 +105,7 @@ exports.update = async (req, res) => {
         update.title = params.title;
     }
 
-   update = {time:"6.30 AM"}
+   
 
 
     try {
@@ -113,7 +113,7 @@ exports.update = async (req, res) => {
         
         res.send({
             success: 1,
-            update,
+          
             message:"task updated successfully"
 
         })
